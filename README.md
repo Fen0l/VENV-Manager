@@ -3,7 +3,13 @@
 
 Virtualenv manager
 
-run ./venv.sh -p python version -e venv name
+run ./env.sh -p python version -e venv name
 
-`./venv.sh -p 3 -e flask_app`
-`./venv.sh -p 2.7`
+`./env.sh -p 3 -e flask_app` Or  `./env.sh -p 2.7`
+
+And after that, run 
+
+`. ./venv.sh` to active the virtual environment
+
+Or
+`deactivate ` to unset the venv
